@@ -7,3 +7,5 @@ build, test, lint, and containerise.
 pip install -r requirements.txt
 PYTHONPATH=src python -m wordcount.cli README.md --top 5
 ```
+
+Triggering a pipeline run.
