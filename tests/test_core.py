@@ -49,3 +49,7 @@ def test_lexical_density_of_empty_text_is_zero():
 
 def test_lexical_density_is_a_ratio():
     assert 0 < Report.build(SAMPLE).lexical_density <= 1
+
+
+def test_intentional_failure():
+    assert word_count("a a b")["a"] == 99
